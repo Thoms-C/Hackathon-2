@@ -1,28 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
 import "./NavbarStyled.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener("resize", showButton);
 
   return (
     <div>
@@ -41,35 +25,19 @@ function Navbar() {
                 Accueil
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/candidat"
-                onClick={closeMobileMenu}
-                className="nav-links"
-              >
-                Espace candidat
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/recruteur"
-                onClick={closeMobileMenu}
-                className="nav-links"
-              >
-                Espace recruteur
-              </Link>
-            </li>
             <li>
               <Link
-                to="/connexion"
+                to="/deconnexion"
                 onClick={closeMobileMenu}
                 className="nav-links-mobile"
               >
-                Connexion
+                Déconnexion
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Connexion</Button>}
+          <Link to="/deconnexion" className="btn--outline">
+            <span>Déconnexion</span>
+          </Link>
         </div>
       </nav>
     </div>
