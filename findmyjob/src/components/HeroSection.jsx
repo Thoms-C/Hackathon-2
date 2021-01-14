@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import SearchBar from "./SearchBar";
 import "./HeroSection.css";
 import styled from "styled-components";
 
@@ -79,9 +80,10 @@ const Page = styled.div`
   }
 `;
 
-function HeroSection() {
+function HeroSection({ searchValue, setsearchValue }) {
   return (
     <div className="hero-container">
+<<<<<<< HEAD
       <Page>
         <div id="container">
           TROUVEZ VOTRE
@@ -102,6 +104,13 @@ function HeroSection() {
         </div>
       </Page>
       <div className="hero-btns"></div>
+=======
+      <h1>TROUVEZ VOTRE JOB</h1>
+      <p>Qu'est ce que vous attendez ?</p>
+      <div className="hero-btns">
+        <SearchBar searchValue={searchValue} setsearchValue={setsearchValue} />
+      </div>
+>>>>>>> main
     </div>
   );
 }
