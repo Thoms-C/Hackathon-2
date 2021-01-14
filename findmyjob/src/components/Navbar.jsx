@@ -30,7 +30,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             FindMyJob
-            <i class="fab fa-connectdevelop"></i>
+            <i className="fab fa-connectdevelop"></i>
           </Link>
           <div onClick={handleClick} className="menu-icon">
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
