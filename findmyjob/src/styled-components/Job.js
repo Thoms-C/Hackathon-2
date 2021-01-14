@@ -53,7 +53,7 @@ export const FirstInfo = styled.div`
 
 export const Skills = styled.div`
   display: flex;
-  //border: 1px solid green;
+  border: 1px solid green;
   color: blue;
   font-weight: bold;
   width: 50%;

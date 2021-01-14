@@ -46,9 +46,7 @@ const JobsList = () => {
         {resultsSearch
           .filter(job => {
             if (searchValue === "") {
-              if (job.details.start === "Ce mois-ci") {
-                return { job };
-              }
+              return { job };
             } else if (
               job.title &&
               job.title.toLowerCase().includes(searchValue.toLowerCase())
