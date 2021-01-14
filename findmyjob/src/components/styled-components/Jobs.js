@@ -13,9 +13,9 @@ export const Search = styled.input`
 export const ClearButton = styled.div`
   width: 10vw;
   padding: 10px;
-  position: absolute;
+  position: relative;
   cursor: pointer;
-  background-color: black;
+  background-color: #0e263d;
   border-radius: 5px;
   color: white;
   text-align: center;
@@ -39,12 +39,11 @@ export const Item = styled.div`
   flex-direction: column;
   overflow: hidden;
   margin: 2% 20% 2% 20%;
-  padding: 1%;
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
-
+  padding: 3%;
+  border-bottom: 2px solid #0e263d;
+  //border-radius: 50px;
+  //background: #e0e0e0;
+  //box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 `;
 
 export const FirstInfo = styled.div`
@@ -66,7 +65,7 @@ export const Skills = styled.div`
   padding: 8px;
 
   &:not(:last-child) p {
-    margin-right: 16px
+    margin-right: 16px;
   } 
 
   & p {
@@ -78,7 +77,9 @@ export const Skills = styled.div`
 export const Preview = styled.div`
   text-align: center;
   padding: 3%;
+  width: 70%;
   height: 25%;
+  font-size: 13pt;
   overflow: hidden;
 `;
 
@@ -96,8 +97,8 @@ export const I = styled.i`
 `;
 
 export const Main = styled.div`
-  width: 75%;
-  height: 20vh;
+  width: 75vw;
+  height: 30vh;
   ${({ showMore }) =>
     showMore &&
     `height:auto;
@@ -108,7 +109,6 @@ export const Infos = styled.div`
   width: 10vw;
   text-align: center;
   color: #0e263d;
-  
 `;
 
 export const Title = styled.div`
@@ -124,7 +124,7 @@ export const Searchtext = styled.p`
 
 export const Test = styled.p`
   border: 2px solid white;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #0e263d;
   padding: 0.5vh;
 `;
@@ -134,10 +134,11 @@ export const Test2 = styled.p`
   border-radius: 20px;
   background-color: white;
   padding: 0.6vh;
-  margin-left: 1vh
+  margin-left: 1vh;
 `;
 
 export const Reverse = styled.div`
-  display:flex;
+  display: flex;
   flex-direction: column-reverse;
-`
+  text-align: left;
+`;

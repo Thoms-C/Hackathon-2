@@ -10,7 +10,7 @@ import {
   SecondtInfo,
   Test,
   Test2,
-  Reverse
+  Reverse,
 } from "./styled-components/Jobs";
 
 const Jobs = ({ job }) => {
@@ -42,14 +42,17 @@ const Jobs = ({ job }) => {
         <Infos>
           <Test2>{job.details.contract}</Test2>
         </Infos>
+        <Infos>
+          <Test2>{job.details.salary}</Test2>
+        </Infos>
       </SecondtInfo>
       <Reverse>
-      <Preview showMore={showMore}>
-        <p>{job.descriptionPreview}</p>
-      </Preview>
-      <More onClick={handleShowMore}>
-        {showMore ? <p>...Moins</p> : <p>...Voir plus</p>}
-      </More>
+        <Preview showMore={showMore}>
+          <p>{job.descriptionPreview}</p>
+        </Preview>
+        <More onClick={handleShowMore}>
+          {showMore ? <p>...Moins</p> : <p>...Voir plus</p>}
+        </More>
       </Reverse>
     </Main>
   );
