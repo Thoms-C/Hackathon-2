@@ -9,7 +9,7 @@ function ResultsSearch({ searchValue, setsearchValue }) {
       <List>
         {jobs
           .filter((job, i) => {
-            if (i > 100) {
+            if (i > 50) {
               return false;
             }
             if (!job.title) {

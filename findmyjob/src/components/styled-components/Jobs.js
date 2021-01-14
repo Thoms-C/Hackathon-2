@@ -30,7 +30,6 @@ export const List = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30vw;
   flex-direction: column;
 `;
 
@@ -41,23 +40,34 @@ export const Item = styled.div`
   flex-direction: column;
   //border-radius: 5px;
   overflow: hidden;
-  margin-bottom: 2%;
+  margin: 2% 15% 2% 15%;
   padding: 1%;
   box-shadow: 2px 2px 5px grey;
 `;
 
 export const FirstInfo = styled.div`
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 `;
 
 export const Skills = styled.div`
   display: flex;
   border: 1px solid green;
+  flex-wrap: wrap;
   color: blue;
   font-weight: bold;
-  width: 50%;
+  width: 100%;
   justify-content: space-around;
+  padding: 8px;
+
+  &:not(:last-child) p {
+    margin-right: 16px
+  } 
+
+  & p {
+    margin: 8px 0
+    }
+  }
 `;
 
 export const Preview = styled.div`
@@ -81,7 +91,7 @@ export const I = styled.i`
 
 export const Main = styled.div`
   border: 1px solid red;
-  width: 30%;
+  width: 95%;
   height: 32vh;
   ${({ showMore }) =>
     showMore &&
@@ -96,3 +106,10 @@ export const Infos = styled.div`
   width: 30%;
   //border: 1px solid red;
 `;
+
+
+export const Title = styled.div`
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+`

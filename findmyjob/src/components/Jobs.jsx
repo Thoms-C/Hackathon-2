@@ -6,6 +6,7 @@ import {
   More,
   Main,
   Infos,
+  Title
 } from "./styled-components/Jobs";
 
 const Jobs = ({ job }) => {
@@ -17,7 +18,7 @@ const Jobs = ({ job }) => {
 
   return (
     <Main showMore={showMore}>
-      <h2>{job.title}</h2>
+      <Title>{job.title}</Title>
       <FirstInfo>
         <Skills>
           {job.skillList &&
