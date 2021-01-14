@@ -13,13 +13,13 @@ export const Search = styled.input`
 export const ClearButton = styled.div`
   width: 10vw;
   padding: 10px;
-  position :absolute;
+  position: absolute;
   cursor: pointer;
   background-color: black;
   border-radius: 5px;
   color: white;
   text-align: center;
-  bottom:24vh
+  bottom: 24vh;
 `;
 
 export const SearchContainer = styled.div`
@@ -34,15 +34,17 @@ export const List = styled.div`
 `;
 
 export const Item = styled.div`
-  border: 1px solid blue;
   display: flex;
   align-items: center;
   flex-direction: column;
-  //border-radius: 5px;
   overflow: hidden;
-  margin: 2% 15% 2% 15%;
+  margin: 2% 20% 2% 20%;
   padding: 1%;
-  box-shadow: 2px 2px 5px grey;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+
 `;
 
 export const FirstInfo = styled.div`
@@ -50,14 +52,17 @@ export const FirstInfo = styled.div`
   flex-direction: column;
 `;
 
+export const SecondtInfo = styled.div`
+  display: flex;
+  margin-top: 2vh;
+`;
+
 export const Skills = styled.div`
   display: flex;
-  border: 1px solid green;
   flex-wrap: wrap;
-  color: blue;
+  color: white;
   font-weight: bold;
   width: 100%;
-  justify-content: space-around;
   padding: 8px;
 
   &:not(:last-child) p {
@@ -65,13 +70,12 @@ export const Skills = styled.div`
   } 
 
   & p {
-    margin: 8px 0
+    margin: 8px 10px 8px 0;
     }
   }
 `;
 
 export const Preview = styled.div`
-  //border: 1px solid yellow;
   text-align: center;
   padding: 3%;
   height: 25%;
@@ -80,9 +84,11 @@ export const Preview = styled.div`
 
 export const More = styled.span`
   display: flex;
-  justify-content: flex-end;
-  color: blue;
+  justify-content: center;
+  color: #0e263d;
   cursor: pointer;
+  margin-top: 2vh;
+  font-weight: bold;
 `;
 
 export const I = styled.i`
@@ -90,9 +96,8 @@ export const I = styled.i`
 `;
 
 export const Main = styled.div`
-  border: 1px solid red;
-  width: 95%;
-  height: 32vh;
+  width: 75%;
+  height: 20vh;
   ${({ showMore }) =>
     showMore &&
     `height:auto;
@@ -100,24 +105,39 @@ export const Main = styled.div`
 `;
 
 export const Infos = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 30%;
-  //border: 1px solid red;
+  width: 10vw;
+  text-align: center;
+  color: #0e263d;
+  
 `;
 
-
 export const Title = styled.div`
-  text-align: center;
   font-size: 30px;
   font-weight: bold;
-`
+`;
 export const Searchtext = styled.p`
   color: white;
   text-align: center;
   margin-bottom: 2vh;
-  font-size: 25px
+  font-size: 25px;
+`;
 
+export const Test = styled.p`
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #0e263d;
+  padding: 0.5vh;
+`;
+
+export const Test2 = styled.p`
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  padding: 0.6vh;
+  margin-left: 1vh
+`;
+
+export const Reverse = styled.div`
+  display:flex;
+  flex-direction: column-reverse;
 `
-

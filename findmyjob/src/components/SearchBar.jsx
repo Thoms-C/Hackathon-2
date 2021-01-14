@@ -5,7 +5,7 @@ import {
   ClearButton,
   List,
   Item,
-  Searchtext
+  Searchtext,
 } from "./styled-components/Jobs";
 
 const SearchBar = ({ setsearchValue, searchValue }) => {
@@ -21,7 +21,7 @@ const SearchBar = ({ setsearchValue, searchValue }) => {
           type="text"
           value={searchValue}
           placeholder="Recherchez une offre"
-          onChange={event => {
+          onChange={(event) => {
             setsearchValue(event.target.value);
           }}
         />

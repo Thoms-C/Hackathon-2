@@ -6,7 +6,11 @@ import {
   More,
   Main,
   Infos,
-  Title
+  Title,
+  SecondtInfo,
+  Test,
+  Test2,
+  Reverse
 } from "./styled-components/Jobs";
 
 const Jobs = ({ job }) => {
@@ -23,28 +27,30 @@ const Jobs = ({ job }) => {
         <Skills>
           {job.skillList &&
             job.skillList.map((skill, key) => {
-              return <p key={key}>{skill.name}</p>;
+              return <Test key={key}>{skill.name}</Test>;
             })}
           {job.skillsList &&
             job.skillsList.map((skill, key) => {
-              return <p key={key}>{skill.name}</p>;
+              return <Test key={key}>{skill.name}</Test>;
             })}
         </Skills>
-        <Infos>
-          <i className="far fa-stopwatch"></i>
-          <p>{job.details.start}</p>
-        </Infos>
-        <Infos>
-          <i className="far fa-briefcase"></i>
-          <p>{job.details.contract}</p>
-        </Infos>
       </FirstInfo>
+      <SecondtInfo>
+        <Infos>
+          <Test2>{job.details.start}</Test2>
+        </Infos>
+        <Infos>
+          <Test2>{job.details.contract}</Test2>
+        </Infos>
+      </SecondtInfo>
+      <Reverse>
       <Preview showMore={showMore}>
         <p>{job.descriptionPreview}</p>
       </Preview>
       <More onClick={handleShowMore}>
         {showMore ? <p>...Moins</p> : <p>...Voir plus</p>}
       </More>
+      </Reverse>
     </Main>
   );
 };
