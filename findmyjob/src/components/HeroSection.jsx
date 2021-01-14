@@ -36,7 +36,6 @@ const Page = styled.div`
     animation: show 15s linear infinite;
   }
 
-
   @keyframes show {
     0% {
       margin-top: -270px;
@@ -83,7 +82,6 @@ const Page = styled.div`
 function HeroSection({ searchValue, setsearchValue }) {
   return (
     <div className="hero-container">
-<<<<<<< HEAD
       <Page>
         <div id="container">
           TROUVEZ VOTRE
@@ -103,14 +101,7 @@ function HeroSection({ searchValue, setsearchValue }) {
           </div>
         </div>
       </Page>
-      <div className="hero-btns"></div>
-=======
-      <h1>TROUVEZ VOTRE JOB</h1>
-      <p>Qu'est ce que vous attendez ?</p>
-      <div className="hero-btns">
-        <SearchBar searchValue={searchValue} setsearchValue={setsearchValue} />
-      </div>
->>>>>>> main
+      <SearchBar searchValue={searchValue} setsearchValue={setsearchValue} />
     </div>
   );
 }
