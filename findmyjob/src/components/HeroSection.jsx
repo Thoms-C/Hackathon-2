@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./HeroSection.css";
-import styled from "styled-components"
+import styled from "styled-components";
 
 const Page = styled.div`
   width: 100%;
@@ -12,15 +12,15 @@ const Page = styled.div`
     text-transform: uppercase;
     font-size: 70px;
     font-weight: bold;
-    text-align:center;
+    text-align: center;
     width: 100%;
     bottom: 45%;
-    margin-top: 25vh
+    margin-top: 25vh;
   }
 
   #flip {
     height: 80px;
-    overflow:hidden;
+    overflow: hidden;
   }
 
   #flip > div > div {
@@ -32,59 +32,76 @@ const Page = styled.div`
   }
 
   #flip div:first-child {
-    animation: show 10s linear infinite;
+    animation: show 15s linear infinite;
   }
+
 
   @keyframes show {
     0% {
       margin-top: -270px;
     }
-    5% {
-      margin-top: -180px;
+    2% {
+      margin-top: -200px;
     }
-    33% {
-      margin-top: -180px;
+    16% {
+      margin-top: -200px;
     }
-    38% {
-      margin-top: -90px;
+    18% {
+      margin-top: -110px;
     }
-    66% {
-      margin-top: -90px;
+    34% {
+      margin-top: -110px;
     }
-    71% {
-      margin-top: 0px;
+    36% {
+      margin-top: -5px;
     }
-    99% {
-      margin-top: 0px;
+    50% {
+      margin-top: -5px;
+    }
+    52% {
+      margin-top: -110px;
+    }
+    68% {
+      margin-top: -110px;
+    }
+    70% {
+      margin-top: -200px;
+    }
+    84% {
+      margin-top: -200px;
+    }
+    86% {
+      margin-top: -290px;
     }
     100% {
-      margin-top: -270px;
+      margin-top: -290px;
     }
   }
-`
+`;
 
 function HeroSection() {
   return (
     <div className="hero-container">
-
       <Page>
-      <div id='container'>
-      TROUVEZ VOTRE
-        <div id ='flip'>
-          <div>
-            <div>JOB</div>
-          </div>
-          <div>
-            <div>ALTERNANCE</div>
-          </div>
-          <div>
-            <div>STAGE</div>
+        <div id="container">
+          TROUVEZ VOTRE
+          <div id="flip">
+            <div>
+              <div>JOB</div>
+            </div>
+            <div>
+              <div>ALTERNANCE</div>
+            </div>
+            <div>
+              <div>STAGE</div>
+            </div>
+            <div>
+              <div>VOIE</div>
+            </div>
           </div>
         </div>
-      </div>
       </Page>
-      <div className="hero-btns">
-      </div>
+      <div className="hero-btns"></div>
     </div>
   );
 }
