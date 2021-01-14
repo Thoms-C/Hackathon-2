@@ -5,6 +5,7 @@ import {
   ClearButton,
   List,
   Item,
+  Searchtext
 } from "./styled-components/Jobs";
 
 const SearchBar = ({ setsearchValue, searchValue }) => {
@@ -15,6 +16,7 @@ const SearchBar = ({ setsearchValue, searchValue }) => {
   return (
     <>
       <SearchContainer>
+        <Searchtext>Qu'est ce que vous attendez ?</Searchtext>
         <Search
           type="text"
           value={searchValue}

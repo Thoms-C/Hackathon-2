@@ -7,23 +7,23 @@ export const Search = styled.input`
   width: 35vw;
   font-size: 12pt;
   color: blue;
+  margin-bottom: 25vh;
 `;
 
 export const ClearButton = styled.div`
   width: 10vw;
   padding: 10px;
-  margin: 1%;
+  position :absolute;
   cursor: pointer;
   background-color: black;
   border-radius: 5px;
   color: white;
   text-align: center;
+  bottom:24vh
 `;
 
 export const SearchContainer = styled.div`
   display: inline;
-  //flex-direction: column;
-  margin: 2%;
 `;
 
 export const List = styled.div`
@@ -113,3 +113,11 @@ export const Title = styled.div`
   font-size: 30px;
   font-weight: bold;
 `
+export const Searchtext = styled.p`
+  color: white;
+  text-align: center;
+  margin-bottom: 2vh;
+  font-size: 25px
+
+`
+
