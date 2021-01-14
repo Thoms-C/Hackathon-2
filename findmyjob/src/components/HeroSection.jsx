@@ -17,6 +17,10 @@ const Page = styled.div`
     width: 100%;
     bottom: 45%;
     margin-top: 25vh;
+
+    @media (max-width: 640px) {
+      font-size: 50px;
+    } 
   }
 
   #flip {
