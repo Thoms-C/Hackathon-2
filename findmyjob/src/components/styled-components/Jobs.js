@@ -14,9 +14,9 @@ export const Search = styled.input`
 export const ClearButton = styled.div`
   width: 10vw;
   padding: 10px;
-  position: absolute;
+  position: relative;
   cursor: pointer;
-  background-color: black;
+  background-color: #0e263d;
   border-radius: 5px;
   color: white;
   text-align: center;
@@ -72,7 +72,7 @@ export const Skills = styled.div`
   padding: 8px;
 
   &:not(:last-child) p {
-    margin-right: 16px
+    margin-right: 16px;
   } 
 
   & p {
@@ -83,8 +83,11 @@ export const Skills = styled.div`
 
 export const Preview = styled.div`
   text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 3%;
   height: 25%;
+  font-size: 13pt;
   overflow: hidden;
 `;
 
@@ -102,7 +105,7 @@ export const I = styled.i`
 `;
 
 export const Main = styled.div`
-  width: 75%;
+  width: 75vw;
   height: 20vh;
   ${({ showMore }) =>
     showMore &&
@@ -122,7 +125,6 @@ export const Infos = styled.div`
   width: 10vw;
   text-align: center;
   color: #0e263d;
-  
 `;
 
 export const Title = styled.div`
@@ -140,7 +142,7 @@ export const Searchtext = styled.p`
 
 export const Test = styled.p`
   border: 2px solid white;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #0e263d;
   padding: 0.5vh;
 `;
@@ -156,9 +158,10 @@ export const Test2 = styled.p`
     
   }
   
+  margin-left: 1vh;
 `;
 
 export const Reverse = styled.div`
-  display:flex;
+  display: flex;
   flex-direction: column-reverse;
-`
+`;
