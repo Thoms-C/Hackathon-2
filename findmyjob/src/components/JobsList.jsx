@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Jobs from "./Jobs";
 
 import jobs from "../assets/jobs.json";
+import selectjobs from "../assets/selectjobs.json";
 import {
   SearchContainer,
   Search,
@@ -37,7 +38,7 @@ const JobsList = () => {
               clear();
             }}
           >
-            "{searchValue}" <i class="fas fa-times-circle"></i>
+            "{searchValue}" <i className="fas fa-times-circle"></i>
           </ClearButton>
         )}
       </SearchContainer>
@@ -45,7 +46,9 @@ const JobsList = () => {
         {resultsSearch
           .filter(job => {
             if (searchValue === "") {
-              return { job };
+              if (job.details.start === "Ce mois-ci") {
+                return { job };
+              }
             } else if (
               job.title &&
               job.title.toLowerCase().includes(searchValue.toLowerCase())

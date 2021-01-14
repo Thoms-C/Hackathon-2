@@ -1,0 +1,335 @@
+[
+  {
+    "companyId": "0p0FBbUXdFSGdsprrDIu0mbfZEc2",
+    "creatorId": "O8jbk6OUNecodZyWLdOvz9PbOWM2",
+    "description": "{\"blocks\":[{\"key\":\"91c4j\",\"text\":\"Offre de test\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":13,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+    "descriptionPreview": "Offre de test",
+    "details": {
+      "contract": "permanent",
+      "places": {
+        "ChIJEW4ls3nVwkcRYGNkgT7xCgQ": {
+          "position": 0,
+          "updatedAt": 1551370841810
+        },
+        "ChIJswm0aMftwkcRlPT9C-zc9LU": {
+          "position": 1,
+          "updatedAt": 1551370841811
+        }
+      },
+      "requiredExperience": 0,
+      "requiredExperiencePro": 0,
+      "salary": "35k ➡ 45k",
+      "start": "ASAP"
+    },
+    "disabled": true,
+    "forceUpdate": 1,
+    "id": "-KovDPCj0N6SmUTZ3HVa",
+    "isActive": false,
+    "isValid": true,
+    "lastUpdate": 1545066677256,
+    "publishDate": 1576429784000,
+    "refreshed": 1542892625015,
+    "seoAlias": "developpeur-euse-fullstack-react-node-welovedevs-com",
+    "skillList": [
+      {
+        "name": "Java",
+        "percentage": 80
+      },
+      {
+        "name": "Arduino",
+        "percentage": 80
+      },
+      {
+        "name": "AngularJS",
+        "percentage": 80
+      }
+    ],
+    "skillsList": [
+      {
+        "name": "Ansible",
+        "percentage": 80
+      }
+    ],
+    "status": "JOB_UNPUBLISHED",
+    "title": "Développeur/euse Fullstack React & Node",
+    "history": {
+      "1537517754710": {
+        "status": "JOB_PUBLISHED"
+      },
+      "1540891401443": {
+        "status": "JOB_PUBLISHED",
+        "userId": "FIX_REFRESH_ROUTINE"
+      },
+      "1544173573850": {
+        "status": "JOB_UNPUBLISHED",
+        "userId": "REFRESH_ROUTINE"
+      },
+      "1544440431797": {
+        "status": "JOB_PUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1544440437768": {
+        "status": "JOB_UNPUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1544440441572": {
+        "status": "JOB_PUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1544446682668": {
+        "status": "JOB_PUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1544450587887": {
+        "status": "JOB_PUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1544451197036": {
+        "status": "JOB_PUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1544453613241": {
+        "status": "JOB_PUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1544453687034": {
+        "status": "JOB_UNPUBLISHED",
+        "userId": "O8jbk6OUNecodZyWLdOvz9PbOWM2"
+      },
+      "1545038624722": {
+        "status": "JOB_PUBLISHED",
+        "userId": "MUORKT5lT8htI7orGmv0GpB7lIG3"
+      },
+      "1545038703256": {
+        "status": "JOB_UNPUBLISHED",
+        "userId": "MUORKT5lT8htI7orGmv0GpB7lIG3"
+      },
+      "1545065885894": {
+        "status": "JOB_PUBLISHED",
+        "userId": "MUORKT5lT8htI7orGmv0GpB7lIG3"
+      },
+      "1545066677256": {
+        "status": "JOB_UNPUBLISHED",
+        "userId": "MUORKT5lT8htI7orGmv0GpB7lIG3"
+      }
+    }
+  },
+  {
+    "companyId": "idss22F0NlZX0HNV0LyW47UG78k2",
+    "createdAt": 1522934459435,
+    "creatorId": "idss22F0NlZX0HNV0LyW47UG78k2",
+    "description": "{\"entityMap\":{},\"blocks\":[{\"key\":\"91c4j\",\"text\":\"We believe in the mantra “You build it, you run it”, that’s why in addition to monitor our real time platform, your focus will be to enhance the processes and tools that help the developers to code fast, test fast and deploy continuously. As we gather more and more data, scalability of the architecture is another challenge!\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":25,\"length\":26,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"986cv\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"ehlui\",\"text\":\"Main Responsibilities\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":21,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"bcb1b\",\"text\":\"Enhance and automatise data pipeline infrastructure (currently AWS, Ansible, Heroku)\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"c4bqr\",\"text\":\"Enhance monitoring, logging and alerting systems and escalation processes\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"8dje1\",\"text\":\"Design and implement deployment tools and processes for testing and production\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"a1pf0\",\"text\":\"Be the technical referent on infra/CI/CD.\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"7ja78\",\"text\":\"Educate the team on devops culture\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"298kd\",\"text\":\"Contribute to the overall architecture\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"7sl51\",\"text\":\" \",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"4cqpl\",\"text\":\"Knowledge & Experience\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":22,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"1jaam\",\"text\":\"Must Have\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"dvjrg\",\"text\":\"5 years of experience in similar position\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"2an96\",\"text\":\"Experience with AWS, Heroku or other PaaS and IaaS cloud\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"bfj78\",\"text\":\"Extensive experience working with linux CLI, bash, python or other scripting language\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"bm018\",\"text\":\"Expert in one configuration management (ideally Ansible or Salt, Puppet and Chef)\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"9bj4l\",\"text\":\"Extensive experience working with database, relational (ideally PostgreSQL) and NoSql (Redis, ElasticSearch or similar)\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"3s9il\",\"text\":\"Experience with CI/CD tools and practices\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"677b7\",\"text\":\"Desirable\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"113hm\",\"text\":\"Play2, Scala\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"e6p2b\",\"text\":\"Ideally with a first experience in start up\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"82pup\",\"text\":\"Key Competencies\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":16,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"fjcn7\",\"text\":\"Like to work in a fast moving environment, managing a real-time 24/24 7/7 platform\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"e7gpd\",\"text\":\"Crafty, handy and pragmatic, you commit on Open source projects and you are present on GitHub\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"5q381\",\"text\":\"Open-minded, even if it is a very tech position you are ready to understand our specific business issues\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}",
+    "descriptionPreview": "We believe in the mantra “You build it, you run it”, that’s why in addition to monitor our real time platform, your focus will be to enhance the processes and tools that help the developers to code fast, test fast and deploy continuously. As we gather more and more data, scalability of the architecture is another challenge! -  - Main Responsibilities - Enhance and automatise data pipeline infrastructure (currently AWS, Ansible, Heroku) - Enhance monitoring, logging and alerting systems and escalation processes - Design and implement deployment tools and processes for testing and production - Be the technical referent on infra/CI/CD. - Educate the team on devops culture - Contribute to the overall architecture -   - Knowledge & Experience - Must Have - 5 years of experience in similar position - Experience with AWS, Heroku or other PaaS and IaaS cloud - Extensive experience working with linux CLI, bash, python or other scripting language - Expert in one configuration management (ideally Ansible or Salt, Puppet and Chef) - Extensive experience working with database, relational (ideally PostgreSQL) and NoSql (Redis, ElasticSearch or similar) - Experience with CI/CD tools and practices - Desirable - Play2, Scala - Ideally with a first experience in start up - Key Competencies - Like to work in a fast moving environment, managing a real-time 24/24 7/7 platform - Crafty, handy and pragmatic, you commit on Open source projects and you are present on GitHub - Open-minded, even if it is a very tech position you are ready to understand our specific business issues",
+    "details": {
+      "contract": "permanent",
+      "places": {
+        "ChIJD7fiBh9u5kcRYJSMaMOCCwQ": {
+          "position": 0,
+          "updatedAt": 1551370841810
+        }
+      },
+      "requiredExperience": 0,
+      "requiredExperiencePro": 0,
+      "salary": "Non renseigné",
+      "start": "ASAP"
+    },
+    "disabled": true,
+    "id": "-L9KxuilPGrGWk4p1gb5",
+    "isActive": false,
+    "isValid": true,
+    "lastUpdate": 1522935478191,
+    "refreshed": 1522935478191,
+    "requiredQualities": [
+      {
+        "qualityId": 69
+      },
+      {
+        "qualityId": 1
+      },
+      {
+        "qualityId": 2
+      },
+      {
+        "qualityId": 60
+      }
+    ],
+    "seoAlias": "devops-site-reliability-engineer-kpler",
+    "skillsList": [
+      {
+        "name": "Scala",
+        "percentage": 90
+      },
+      {
+        "name": "Elastic search",
+        "percentage": 90
+      },
+      {
+        "name": "Python",
+        "percentage": 100
+      },
+      {
+        "name": "PostgreSQL",
+        "percentage": 80
+      },
+      {
+        "name": "Ansible",
+        "percentage": 30
+      }
+    ],
+    "status": "JOB_UNPUBLISHED",
+    "title": "DEVOPS / SITE RELIABILITY ENGINEER",
+    "history": {
+      "1522935478191": {
+        "status": "JOB_UNPUBLISHED"
+      }
+    }
+  },
+  {
+    "companyId": "i5KG4jvojgTACVlocogyKxPR4uB3",
+    "createdAt": 1522949615887,
+    "creatorId": "MUORKT5lT8htI7orGmv0GpB7lIG3",
+    "description": "{\"entityMap\":{},\"blocks\":[{\"key\":\"91c4j\",\"text\":\"Sphère-Santé, filiale du Groupe Bastide, est présente depuis plus de 10 ans sur le métier de la distribution de matériel médical à destination du particulier. \",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"f4tu0\",\"text\":\"Nous recherchons un développeur PHP Full-Stack qui sera en charge de poursuivre le développement et la maintenance du front-office et back-office de notre site web marchand (framework maison). Le développeur participera également à la digitalisation du groupe Bastide avec le développement de sites internet et d’outils internes.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"a09ob\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"es7hf\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"88op6\",\"text\":\"Compétences requises :\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":22,\"style\":\"BOLD\"},{\"offset\":0,\"length\":22,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"cmhu9\",\"text\":\"Développement PHP5/PHP7\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"ea34a\",\"text\":\"Maitrise MySql\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"a6gh8\",\"text\":\"Connaissances Jquery\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"5rt75\",\"text\":\"Maitrise du HTML et CSS3\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"afsr4\",\"text\":\"Vous serez autonome sur la gestion des projets confiés, et devrez faire preuve d'initiative.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"5185j\",\"text\":\"Vos principales missions :\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":26,\"style\":\"BOLD\"},{\"offset\":0,\"length\":26,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"3a56n\",\"text\":\"Participer activement à la réflexion et à la conception de nouveaux modules.\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"e5fs2\",\"text\":\"Collaborer à la maintenance et à l’évolution des modules déjà en ligne.\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"6tuc2\",\"text\":\"Etre force de proposition pour élaborer les solutions techniques les plus pragmatiques et pérennes.\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"9otng\",\"text\":\"Etre en veille permanente des évolutions régulière du marché et des technologies afin de gagner en adaptabilité, réactivité et capacité a innover.\\n\\n\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"7sl51\",\"text\":\"Votre profil :   De formation bac + 3/5 vous disposez dʼune expérience de 3 à 5 ans dans le développement web de solutions e-commerce. Vous êtes un développeur FullStack et maîtrisez le PHP, MySQL, HTML CSS... ainsi que les interfaces Web riches de type Jquery.  De bonnes connaissances et une appétence en e-commerce sont nécessaires pour performer sur ce poste.  Le plus important est votre état d’esprit : une « can Do » attitude, un regard critique et un enthousiasme à innover seront vos meilleures garanties de réussite dans l’équipe.  Créativité, bonne humeur et excellence seront vos maitres mots ? Vous souhaitez participer au développement d'une start-up et envisager des perspectives d'évolution motivantes au sein d'une équipe dynamique et ultra réactive ? Rejoignez-nous !\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":14,\"style\":\"BOLD\"},{\"offset\":0,\"length\":14,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}}]}",
+    "descriptionPreview": "Sphère-Santé, filiale du Groupe Bastide, est présente depuis plus de 10 ans sur le métier de la distribution de matériel médical à destination du particulier.  - Nous recherchons un développeur PHP Full-Stack qui sera en charge de poursuivre le développement et la maintenance du front-office et back-office de notre site web marchand (framework maison). Le développeur participera également à la digitalisation du groupe Bastide avec le développement de sites internet et d’outils internes. -  -  - Compétences requises : - Développement PHP5/PHP7 - Maitrise MySql - Connaissances Jquery - Maitrise du HTML et CSS3 - Vous serez autonome sur la gestion des projets confiés, et devrez faire preuve d'initiative. - Vos principales missions : - Participer activement à la réflexion et à la conception de nouveaux modules. - Collaborer à la maintenance et à l’évolution des modules déjà en ligne. - Etre force de proposition pour élaborer les solutions techniques les plus pragmatiques et pérennes. - Etre en veille permanente des évolutions régulière du marché et des technologies afin de gagner en adaptabilité, réactivité et capacité a innover.\n\n - Votre profil :   De formation bac + 3/5 vous disposez dʼune expérience de 3 à 5 ans dans le développement web de solutions e-commerce. Vous êtes un développeur FullStack et maîtrisez le PHP, MySQL, HTML CSS... ainsi que les interfaces Web riches de type Jquery.  De bonnes connaissances et une appétence en e-commerce sont nécessaires pour performer sur ce poste.  Le plus important est votre état d’esprit : une « can Do » attitude, un regard critique et un enthousiasme à innover seront vos meilleures garanties de réussite dans l’équipe.  Créativité, bonne humeur et excellence seront vos maitres mots ? Vous souhaitez participer au développement d'une start-up et envisager des perspectives d'évolution motivantes au sein d'une équipe dynamique et ultra réactive ? Rejoignez-nous !",
+    "details": {
+      "contract": "permanent",
+      "places": {
+        "ChIJK6JaBV9h5kcR0JaGGAOds1M": {
+          "position": 0,
+          "updatedAt": 1551370841810
+        }
+      },
+      "requiredExperience": 0,
+      "requiredExperiencePro": 0,
+      "salary": "Non renseigné",
+      "start": "ASAP"
+    },
+    "disabled": true,
+    "id": "-L9Lrj0RWI11gCs6gL_h",
+    "isActive": false,
+    "isValid": true,
+    "lastUpdate": 1522949685660,
+    "refreshed": 1522949685660,
+    "requiredQualities": [
+      {
+        "qualityId": 69
+      },
+      {
+        "qualityId": 1
+      },
+      {
+        "qualityId": 2
+      },
+      {
+        "qualityId": 60
+      }
+    ],
+    "seoAlias": "developpeur-php-full-stack-sphere-sante",
+    "skillsList": [
+      {
+        "name": "PHP",
+        "percentage": 90
+      },
+      {
+        "name": "Jquery",
+        "percentage": 90
+      }
+    ],
+    "status": "JOB_UNPUBLISHED",
+    "title": "Développeur PHP Full-Stack ",
+    "history": {
+      "1522949685660": {
+        "status": "JOB_UNPUBLISHED"
+      }
+    }
+  },
+  {
+    "companyId": "munxo398KnT96oDYmXTQIJHhvqi2",
+    "createdAt": 1523001425113,
+    "creatorId": "munxo398KnT96oDYmXTQIJHhvqi2",
+    "description": "{\"entityMap\":{},\"blocks\":[{\"key\":\"91c4j\",\"text\":\"Votre mission, si vous l'acceptez, sera de :\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":13,\"style\":\"BOLD\"},{\"offset\":35,\"length\":9,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"7a0c4\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"b80n0\",\"text\":\"Vous serez responsable du développement de nouvelles fonctionnalités dans les outils utilisés quotidiennement dans nos missions : traitements de données, algorithmes et règles de calcul, Reporting\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"csjlt\",\"text\":\"Votre capacité d’analyse vous permettra de traduire les besoins remontés en propositions d’évolutions\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"1uot9\",\"text\":\"Rigoureux vous veillerez à la qualité des livrables au travers de tests fonctionnels et unitaires pour produire un résultat que nos clients sauront apprécier\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"1cbpc\",\"text\":\"Vous participerez au déploiement des applications dans le cloud (Azure) ou chez d’autres hébergeurs\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"613uj\",\"text\":\"Votre curiosité naturelle vous amènera à proposer des évolutions techniques\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"3v9me\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"7sl51\",\"text\":\"  \",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"5grb6\",\"text\":\"Compétences requises \",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":20,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"8hktb\",\"text\":\"Ecole d'ingénieur ou équivalent\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"84rgh\",\"text\":\"Le candidat doit être à l’aise dans la communication écrite en français et en anglais (l’oral est un plus).\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":39,\"length\":46,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"7apm7\",\"text\":\"C#, HTML, Javascript, CSS, ASP.Net MVC, Web API\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"40mml\",\"text\":\"Environnement technique\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":23,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"5ttat\",\"text\":\"Langages et Frameworks:\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"1qks8\",\"text\":\"C# (.Net 4.5+, .Net Core 2), ASP.Net (MVC 5 & 6), Web API\",\"type\":\"unordered-list-item\",\"depth\":1,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"9jsrl\",\"text\":\"HTML5, Javascript, ECMAScript 6, CSS, SCSS, Webpack, Babel, Bootstrap\",\"type\":\"unordered-list-item\",\"depth\":1,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"8prs8\",\"text\":\"Bases de données : SQL Server, Mongo DB\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"93utc\",\"text\":\"Cloud : Azure\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"b59je\",\"text\":\"Outils : Visual Studio 2017, JIRA Software, Confluence, GIT, Bitbucket, Jenkins, SonarQube\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"btvt\",\"text\":\"Qualités requises\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":17,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"95uvj\",\"text\":\"Exigence envers la qualité de votre propre travail, \",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"8tqqj\",\"text\":\"Capacité d’écoute et d’analyse, \",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"71ihu\",\"text\":\"Appétence et compétence à rejoindre une petite structure, \",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"3bs03\",\"text\":\"Capacité à adapter son langage au profil de ses interlocuteurs, \",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"7bojt\",\"text\":\"Capacité à s’intégrer et à partager des valeurs telles que la convivialité et l’esprit d’équipe \",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}",
+    "descriptionPreview": "Votre mission, si vous l'acceptez, sera de : -  - Vous serez responsable du développement de nouvelles fonctionnalités dans les outils utilisés quotidiennement dans nos missions : traitements de données, algorithmes et règles de calcul, Reporting - Votre capacité d’analyse vous permettra de traduire les besoins remontés en propositions d’évolutions - Rigoureux vous veillerez à la qualité des livrables au travers de tests fonctionnels et unitaires pour produire un résultat que nos clients sauront apprécier - Vous participerez au déploiement des applications dans le cloud (Azure) ou chez d’autres hébergeurs - Votre curiosité naturelle vous amènera à proposer des évolutions techniques -  -    - Compétences requises  - Ecole d'ingénieur ou équivalent - Le candidat doit être à l’aise dans la communication écrite en français et en anglais (l’oral est un plus). - C#, HTML, Javascript, CSS, ASP.Net MVC, Web API - Environnement technique - Langages et Frameworks: - C# (.Net 4.5+, .Net Core 2), ASP.Net (MVC 5 & 6), Web API - HTML5, Javascript, ECMAScript 6, CSS, SCSS, Webpack, Babel, Bootstrap - Bases de données : SQL Server, Mongo DB - Cloud : Azure - Outils : Visual Studio 2017, JIRA Software, Confluence, GIT, Bitbucket, Jenkins, SonarQube - Qualités requises - Exigence envers la qualité de votre propre travail,  - Capacité d’écoute et d’analyse,  - Appétence et compétence à rejoindre une petite structure,  - Capacité à adapter son langage au profil de ses interlocuteurs,  - Capacité à s’intégrer et à partager des valeurs telles que la convivialité et l’esprit d’équipe ",
+    "details": {
+      "contract": "permanent",
+      "places": {
+        "ChIJD7fiBh9u5kcRYJSMaMOCCwQ": {
+          "position": 0,
+          "updatedAt": 1551370841810
+        }
+      },
+      "requiredExperience": 0,
+      "requiredExperiencePro": 0,
+      "salary": "Non renseigné",
+      "start": "ASAP"
+    },
+    "disabled": true,
+    "id": "-L9OxMlY7AkonjmIJwe4",
+    "isActive": false,
+    "isValid": true,
+    "lastUpdate": 1525261812496,
+    "refreshed": 1525261812496,
+    "requiredQualities": [
+      {
+        "qualityId": 69
+      },
+      {
+        "qualityId": 1
+      },
+      {
+        "qualityId": 2
+      },
+      {
+        "qualityId": 60
+      }
+    ],
+    "seoAlias": "titre-du-poste-primeum",
+    "skillsList": [
+      {
+        "name": "C#",
+        "percentage": 90
+      },
+      {
+        "name": "Azure",
+        "percentage": 10
+      },
+      {
+        "name": "Dot-net",
+        "percentage": 60
+      },
+      {
+        "name": "Git",
+        "percentage": 70
+      },
+      {
+        "name": "HTML5",
+        "percentage": 70
+      },
+      {
+        "name": "SQL",
+        "percentage": 50
+      },
+      {
+        "name": "Visualstudio",
+        "percentage": 100
+      },
+      {
+        "name": "Webpack",
+        "percentage": 10
+      },
+      {
+        "name": "CSS3",
+        "percentage": 0
+      },
+      {
+        "name": "Bitbucket",
+        "percentage": 0
+      }
+    ],
+    "status": "JOB_UNPUBLISHED",
+    "title": "Développeur .Net fullstack",
+    "history": {
+      "1525261812496": {
+        "status": "JOB_UNPUBLISHED"
+      }
+    }
+  }
+]

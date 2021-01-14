@@ -26,11 +26,11 @@ const Jobs = ({ job }) => {
             })}
         </Skills>
         <Infos>
-          <i class="far fa-stopwatch"></i>
+          <i className="far fa-stopwatch"></i>
           <p>{job.details.start}</p>
         </Infos>
         <Infos>
-          <i class="far fa-briefcase"></i>
+          <i className="far fa-briefcase"></i>
           <p>{job.details.contract}</p>
         </Infos>
       </FirstInfo>
