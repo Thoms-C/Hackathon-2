@@ -5,6 +5,7 @@ import "../css/NavbarStyled.css";
 function Navbar() {
   const [click, setClick] = useState(false);
 
+
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -40,12 +41,12 @@ function Navbar() {
                 onClick={closeMobileMenu}
                 className="nav-links-mobile"
               >
-                Déconnexion
+                Connexion
               </Link>
             </li>
           </ul>
-          <Link to="/" className="btn--outline">
-            <span>Déconnexion</span>
+          <Link to="/Dashboard" className="btn--outline">
+            <span>Connexion</span>
           </Link>
         </div>
       </nav>
