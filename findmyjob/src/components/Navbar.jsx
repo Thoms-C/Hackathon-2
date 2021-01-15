@@ -35,7 +35,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <Link to="/deconnexion" className="btn--outline">
+          <Link to="/" className="btn--outline">
             <span>Déconnexion</span>
           </Link>
         </div>
