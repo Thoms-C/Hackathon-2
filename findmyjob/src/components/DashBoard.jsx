@@ -1,3 +1,5 @@
+import JobOffersChart from "./JobOffersChart";
+import MostPopularLangagesChart from "./MostPopularLanguagesChart";
 import {
   Graphic,
   GraphicsContainer,
@@ -22,8 +24,13 @@ export default function Dashboard() {
       </Profil>
       <MainContainer>
         <GraphicsContainer className="firstSection">
-          <Graphic>Graphic 1</Graphic>
-          <Graphic>Graphic 2</Graphic>
+          <Graphic>
+            <JobOffersChart />
+          </Graphic>
+          <Graphic>
+            {" "}
+            <MostPopularLangagesChart />
+          </Graphic>
           <Graphic>Graphic 3</Graphic>
         </GraphicsContainer>
         <GraphicsContainer className="secondSection">
