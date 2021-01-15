@@ -43,11 +43,11 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/candidat"
+                to="/Dashboard"
                 onClick={closeMobileMenu}
                 className="nav-links"
               >
-                Espace candidat
+                Dashboard
               </Link>
             </li>
             <li className="nav-item">

@@ -39,16 +39,21 @@ export const Item = styled.div`
   flex-direction: column;
   overflow: hidden;
   margin: 2% 20% 2% 20%;
-  padding: 3%;
-  border-bottom: 2px solid #0e263d;
-  //border-radius: 50px;
-  //background: #e0e0e0;
-  //box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 1%;
+  border-radius: 50px;
+  background: white;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+
+  @media (max-width: 768px) {
+    box-shadow: none;
+    border-radius: 0;
+  }
 `;
 
 export const FirstInfo = styled.div`
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid #0e263d;
 `;
 
 export const SecondtInfo = styled.div`
@@ -77,8 +82,9 @@ export const Skills = styled.div`
 export const Preview = styled.div`
   text-align: center;
   letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
   padding: 3%;
-  width: 70%;
   height: 25%;
   font-size: 13pt;
   overflow: hidden;
@@ -99,11 +105,19 @@ export const I = styled.i`
 
 export const Main = styled.div`
   width: 75vw;
-  height: 30vh;
+  height: 20vh;
   ${({ showMore }) =>
     showMore &&
     `height:auto;
     `}
+  @media (max-width: 768px) {
+    height: 33.3vh;
+    width: 90vw;
+    ${({ showMore }) =>
+      showMore &&
+      `height:auto;
+      `}
+  }
 `;
 
 export const Infos = styled.div`
@@ -115,6 +129,8 @@ export const Infos = styled.div`
 export const Title = styled.div`
   font-size: 30px;
   font-weight: bold;
+  border-bottom: 2px solid #0e263d;
+  color: #0e263d;
 `;
 export const Searchtext = styled.p`
   color: white;
@@ -135,11 +151,14 @@ export const Test2 = styled.p`
   border-radius: 20px;
   background-color: white;
   padding: 0.6vh;
+  margin-left: 1vh @media (max-width: 640px) {
+
+  }
+
   margin-left: 1vh;
 `;
 
 export const Reverse = styled.div`
   display: flex;
   flex-direction: column-reverse;
-  text-align: left;
 `;

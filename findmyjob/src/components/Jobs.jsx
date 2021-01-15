@@ -11,6 +11,7 @@ import {
   Test,
   Test2,
   Reverse,
+  
 } from "./styled-components/Jobs";
 
 const Jobs = ({ job }) => {
