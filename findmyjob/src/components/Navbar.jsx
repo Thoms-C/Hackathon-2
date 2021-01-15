@@ -14,7 +14,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             FindMyJob
-            <i class="fab fa-connectdevelop"></i>
+            <i className="fab fa-connectdevelop"></i>
           </Link>
           <div onClick={handleClick} className="menu-icon">
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -23,6 +23,15 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/" onClick={closeMobileMenu} className="nav-links">
                 Accueil
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/Dashboard"
+                onClick={closeMobileMenu}
+                className="nav-links"
+              >
+                Dashboard
               </Link>
             </li>
             <li>
