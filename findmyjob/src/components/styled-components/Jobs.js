@@ -24,7 +24,9 @@ export const ClearButton = styled.div`
 `;
 
 export const SearchContainer = styled.div`
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const List = styled.div`
