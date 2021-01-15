@@ -49,7 +49,7 @@ const Jobs = ({ job }) => {
       </SecondtInfo>
       <Reverse>
         <Preview showMore={showMore}>
-          <p>{job.descriptionPreview}</p>
+          <p>{job.descriptionPreview.replace("-", "/(\r\n|\n|\r)/gm")}</p>
         </Preview>
         <More onClick={handleShowMore}>
           {showMore ? <p>...Moins</p> : <p>...Voir plus</p>}

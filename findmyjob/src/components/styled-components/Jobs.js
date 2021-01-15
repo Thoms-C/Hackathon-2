@@ -8,7 +8,6 @@ export const Search = styled.input`
   font-size: 12pt;
   color: blue;
   margin-bottom: 25vh;
-
 `;
 
 export const ClearButton = styled.div`
@@ -45,8 +44,7 @@ export const Item = styled.div`
   padding: 1%;
   border-radius: 50px;
   background: white;
-  box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 
   @media (max-width: 768px) {
     box-shadow: none;
@@ -85,6 +83,7 @@ export const Skills = styled.div`
 
 export const Preview = styled.div`
   text-align: center;
+  letter-spacing: 1px;
   display: flex;
   justify-content: center;
   padding: 3%;
@@ -113,14 +112,14 @@ export const Main = styled.div`
     showMore &&
     `height:auto;
     `}
-    @media (max-width: 768px) {
-      height: 33.3vh;
-      width: 90vw;
-      ${({ showMore }) =>
+  @media (max-width: 768px) {
+    height: 33.3vh;
+    width: 90vw;
+    ${({ showMore }) =>
       showMore &&
       `height:auto;
       `}
-    }
+  }
 `;
 
 export const Infos = styled.div`
@@ -133,7 +132,7 @@ export const Title = styled.div`
   font-size: 30px;
   font-weight: bold;
   border-bottom: 2px solid #0e263d;
-  color : #0e263d;
+  color: #0e263d;
 `;
 export const Searchtext = styled.p`
   color: white;
@@ -154,12 +153,10 @@ export const Test2 = styled.p`
   border-radius: 20px;
   background-color: white;
   padding: 0.6vh;
-  margin-left: 1vh
+  margin-left: 1vh @media (max-width: 640px) {
 
-  @media (max-width: 640px) {
-    
   }
-  
+
   margin-left: 1vh;
 `;
 
