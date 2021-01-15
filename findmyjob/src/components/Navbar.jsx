@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./NavbarStyled.css";
+import "../css/NavbarStyled.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -27,7 +27,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/deconnexion"
+                to="/"
                 onClick={closeMobileMenu}
                 className="nav-links-mobile"
               >
