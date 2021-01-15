@@ -92,7 +92,7 @@ export const Preview = styled.div`
   height: 25%;
   font-size: 13pt;
   overflow: hidden;
-
+  line-height: 150%
 `;
 
 export const More = styled.span`
