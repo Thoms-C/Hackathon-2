@@ -1,5 +1,5 @@
 import React from "react";
-import { Main, Div, Logo } from "./styled-components/Footer";
+import { Main, Div, Logo, } from "./styled-components/Footer";
 
 const Footer = () => {
   return (

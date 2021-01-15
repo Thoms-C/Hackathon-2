@@ -6,8 +6,12 @@ export const Search = styled.input`
   padding: 3%;
   width: 35vw;
   font-size: 12pt;
-  color: blue;
+  color: #0e263d;
   margin-bottom: 25vh;
+
+  @media (max-width: 640px) {
+    width:80%;
+  }
 `;
 
 export const ClearButton = styled.div`
@@ -20,6 +24,10 @@ export const ClearButton = styled.div`
   color: white;
   text-align: center;
   bottom: 24vh;
+
+  @media (max-width: 640px) {
+    width:auto;
+  }
 `;
 
 export const SearchContainer = styled.div`
@@ -42,9 +50,8 @@ export const Item = styled.div`
   overflow: hidden;
   margin: 2% 20% 2% 20%;
   padding: 1%;
-  border-radius: 50px;
   background: white;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  
 
   @media (max-width: 768px) {
     box-shadow: none;
@@ -54,12 +61,11 @@ export const Item = styled.div`
 
 export const FirstInfo = styled.div`
   display: flex;
-  flex-direction: column;
-  border-bottom: 2px solid #0e263d;
-`;
+  flex-direction: column;`;
 
 export const SecondtInfo = styled.div`
   display: flex;
+  justiy-content: space-between;
   margin-top: 2vh;
 `;
 
@@ -71,25 +77,22 @@ export const Skills = styled.div`
   width: 100%;
   padding: 8px;
 
-  &:not(:last-child) p {
-    margin-right: 16px;
-  } 
-
   & p {
-    margin: 8px 10px 8px 0;
+    margin: 2px 6px 2px 0;
     }
   }
 `;
 
 export const Preview = styled.div`
-  text-align: center;
   letter-spacing: 1px;
   display: flex;
-  justify-content: center;
+  justify-content: justify;
+  text-align: justify;
   padding: 3%;
   height: 25%;
   font-size: 13pt;
   overflow: hidden;
+
 `;
 
 export const More = styled.span`
@@ -107,23 +110,31 @@ export const I = styled.i`
 
 export const Main = styled.div`
   width: 75vw;
-  height: 20vh;
+  height: 23vh;
+  background-color: rgb(248, 248, 248);
+  padding: 2%;
   ${({ showMore }) =>
     showMore &&
     `height:auto;
     `}
   @media (max-width: 768px) {
-    height: 33.3vh;
+    height: 24vh;
     width: 90vw;
     ${({ showMore }) =>
       showMore &&
       `height:auto;
       `}
   }
+  @media (max-width: 640px) {
+    height:auto;
+    ${({ showMore }) =>
+    showMore &&
+    `height:auto;
+    `}
+  }
 `;
 
 export const Infos = styled.div`
-  width: 10vw;
   text-align: center;
   color: #0e263d;
 `;
@@ -131,8 +142,11 @@ export const Infos = styled.div`
 export const Title = styled.div`
   font-size: 30px;
   font-weight: bold;
-  border-bottom: 2px solid #0e263d;
   color: #0e263d;
+
+  @media (max-width: 640px) {
+    font-size: 25px;
+  }
 `;
 export const Searchtext = styled.p`
   color: white;
@@ -149,18 +163,18 @@ export const Test = styled.p`
 `;
 
 export const Test2 = styled.p`
-  border: 2px solid black;
+  border: 2px solid #0e263d;
   border-radius: 20px;
   background-color: white;
   padding: 0.6vh;
-  margin-left: 1vh @media (max-width: 640px) {
-
-  }
-
   margin-left: 1vh;
 `;
 
 export const Reverse = styled.div`
   display: flex;
   flex-direction: column-reverse;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;

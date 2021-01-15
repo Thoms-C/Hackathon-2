@@ -50,15 +50,6 @@ function Navbar() {
                 Dashboard
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/recruteur"
-                onClick={closeMobileMenu}
-                className="nav-links"
-              >
-                Espace recruteur
-              </Link>
-            </li>
             <li>
               <Link
                 to="/connexion"

@@ -11,21 +11,19 @@ function Cards() {
             className="text"
             src="https://solvers.fr/wp-content/uploads/2019/06/8-astuces-pour-ame%CC%81liorer-les-performances-des-applications-React.png"
             text="React js : Ce que vous avez besoin de savoir avant d'entrer en entreprise "
-            path="/"
             label="Développeur Front"
+            path='/'
           />
 
           <CardItems
             src="https://media.dogfinance.com/files/articles/le-data-analyst-ou-le-nouveau-metier-qui-recrute_b.jpg"
             text="Découvrez comment devenir Data Analyst en 2021 !"
-            path="/"
             label="Data-analyste"
           />
 
           <CardItems
             src="https://www.pole-emploi.fr/files/live/sites/PE/files/dri/FAQ-prime-exceptionnelle.gif"
             text="Prime exceptionnelle: quelle articulation ?"
-            path="/"
             label="Ingénieur logiciel"
           />
         </ul>
@@ -33,21 +31,18 @@ function Cards() {
           <CardItems
             src="https://www.pole-emploi.fr/files/live/sites/PE/files/dri/Demission-et-periode-de-confinement-308x188.jpg"
             text="Démission lors de la période de confinement, que faire ?"
-            path="/"
             label="Ingénieur logiciel"
           />
 
           <CardItems
             src="https://www.pole-emploi.fr/files/live/sites/PE/files/affiche/2020/prepa-apprentissage-insertion-jeunes-w-308.jpg"
             text="Une nouvelle voie d'insertion pour les jeunes travaillers. A découvrir !"
-            path="/"
             label="Ingénieur logiciel"
           />
 
           <CardItems
             src="https://www.pole-emploi.fr/files/live/sites/PE/files/dri/je-cherche-un-emploi-aide-au-deplacement308.jpg"
             text="Aides à la mobilité : à tout besoin, sa solution"
-            path="/"
             label="Ingénieur logiciel"
           />
         </ul>
