@@ -76,6 +76,7 @@ export const Skills = styled.div`
 
 export const Preview = styled.div`
   text-align: center;
+  letter-spacing: 1px;
   padding: 3%;
   width: 70%;
   height: 25%;
