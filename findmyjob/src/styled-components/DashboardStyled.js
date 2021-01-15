@@ -6,20 +6,19 @@ export const DashboardContainer = styled.div`
 `;
 
 export const Graphic = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30vw;
   height: 40vh;
   color: white;
   background: rgb(21, 19, 19);
-  box-shadow: 5px 5px 8px black;
+  box-shadow: 5px 5px 10px rgb(162, 161, 161);
   border: 1px solid grey;
   margin: 2vw;
   border-radius: 20px;
 
-  &:hover {
-    box-shadow: 5px 5px 10px rgb(162, 161, 161);
-  }
-
-  &#longGraphic{
+  &#longGraphic {
     height: 35vh;
     width: 75vw;
   }
@@ -71,6 +70,6 @@ export const ProfilInformation = styled.div`
 
 export const NameUser = styled.h1`
   font-size: 2.5vh;
-  color: rgb(100, 100, 100);
+  color: rgb(150, 150, 150);
   text-shadow: 2px 2px 2px black;
 `;
