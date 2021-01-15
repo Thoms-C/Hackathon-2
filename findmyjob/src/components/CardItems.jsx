@@ -6,7 +6,11 @@ function Carditem(props) {
   return (
     <>
       <li className="cards__item">
-        <Link className="cards__item__link" to={props.path}>
+        <a
+          className="cards__item__link"
+          href="https://www.easypartner.fr/offres-emplois/developpeur-react-js-pour-une-entreprise-avec-de-grandes-ambitions/"
+          target="_blank"
+        >
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img
               src={props.src}
@@ -17,7 +21,7 @@ function Carditem(props) {
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
           </div>
-        </Link>
+        </a>
       </li>
     </>
   );

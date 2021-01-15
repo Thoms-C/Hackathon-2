@@ -12,7 +12,6 @@ function Cards() {
             src="https://solvers.fr/wp-content/uploads/2019/06/8-astuces-pour-ame%CC%81liorer-les-performances-des-applications-React.png"
             text="React js : Ce que vous avez besoin de savoir avant d'entrer en entreprise "
             label="Développeur Front"
-            path='/'
           />
 
           <CardItems
